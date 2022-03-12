@@ -1,0 +1,522 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9308239900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "TC-002 Input all information on Search Form",
+        "description": "",
+        "id": "signup,-sign-in-and-purchase-product;tc-002-input-all-information-on-search-form",
+        "after": [
+          {
+            "result": {
+              "duration": 142300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 211683500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on home page",
+            "match": {
+              "location": "onlineBookingStepsdef.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 400989500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on destination list",
+            "match": {
+              "location": "onlineBookingStepsdef.iClickOnDestinationList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4091516800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select destination \"Costa Almeria - Spain\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Costa Almeria - Spain",
+                  "offset": 22
+                }
+              ],
+              "location": "onlineBookingStepsdef.iSelectDestination(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173830200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on departing from",
+            "match": {
+              "location": "onlineBookingStepsdef.iClickOnDepartingFrom()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 800340200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select airport \"London (All Airports)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London (All Airports)",
+                  "offset": 18
+                }
+              ],
+              "location": "onlineBookingStepsdef.iSelectAirport(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1123736900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on start date",
+            "match": {
+              "location": "onlineBookingStepsdef.iClickOnStartDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 537057100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I select the month \"Apr 2022\" and date \"16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apr 2022",
+                  "offset": 20
+                },
+                {
+                  "val": "16",
+                  "offset": 40
+                }
+              ],
+              "location": "onlineBookingStepsdef.iSelectTheMonthAndDate(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 475976000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select the \"3 Nights\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3 Nights",
+                  "offset": 14
+                }
+              ],
+              "location": "onlineBookingStepsdef.iSelectThe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165534700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I can select BoardBasis \"All Inclusive\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "All Inclusive",
+                  "offset": 25
+                }
+              ],
+              "location": "onlineBookingStepsdef.iCanSelectBoardBasis(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5196046600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I can select Rooms",
+            "match": {
+              "location": "onlineBookingStepsdef.iCanSelectRooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134616200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I can add adults \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 18
+                }
+              ],
+              "location": "onlineBookingStepsdef.iCanAddAdults(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1942402700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I can click on Search Button",
+            "match": {
+              "location": "onlineBookingStepsdef.iCanClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29390745000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I can select Roomfinal",
+            "match": {
+              "location": "onlineBookingStepsdef.iCanSelectRoomfinal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8472661100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I can click on continue",
+            "match": {
+              "location": "onlineBookingStepsdef.iCanClickOnContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4208659500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I can click On checkout Button",
+            "match": {
+              "location": "onlineBookingStepsdef.iCanClickOnCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242442700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter Title \"Mr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mr",
+                  "offset": 15
+                }
+              ],
+              "location": "onlineBookingStepsdef.iEnterTitle(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155566700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter FirstName \"Anand\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Anand",
+                  "offset": 19
+                }
+              ],
+              "location": "onlineBookingStepsdef.iEnterFirstName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128591000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter MiddleName \"M\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "M",
+                  "offset": 20
+                }
+              ],
+              "location": "onlineBookingStepsdef.iEnterMiddleName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140716200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I enter LastName \"Tripathi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tripathi",
+                  "offset": 18
+                }
+              ],
+              "location": "onlineBookingStepsdef.iEnterLastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120027300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter day \"12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 13
+                }
+              ],
+              "location": "onlineBookingStepsdef.iEnterDay(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130877800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I enter month \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 15
+                }
+              ],
+              "location": "onlineBookingStepsdef.iEnterMonth(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114727000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I enter year \"1978\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1978",
+                  "offset": 14
+                }
+              ],
+              "location": "onlineBookingStepsdef.iEnterYear(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134238300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter Primary Number",
+            "match": {
+              "location": "onlineBookingStepsdef.iEnterPrimaryNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197983100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter Email Address",
+            "match": {
+              "location": "onlineBookingStepsdef.iEnterEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160068100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I enter confirm Email Address",
+            "match": {
+              "location": "onlineBookingStepsdef.iEnterConfirmEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204495700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on Continue Button",
+            "match": {
+              "location": "onlineBookingStepsdef.iClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235178400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter House Number",
+            "match": {
+              "location": "onlineBookingStepsdef.iEnterHouseNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190269700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter City",
+            "match": {
+              "location": "onlineBookingStepsdef.iEnterCity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218186900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter County",
+            "match": {
+              "location": "onlineBookingStepsdef.iEnterCounty()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131031000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter Country \"United Kingdom\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "United Kingdom",
+                  "offset": 17
+                }
+              ],
+              "location": "onlineBookingStepsdef.iEnterCountry(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185487700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter PostCode",
+            "match": {
+              "location": "onlineBookingStepsdef.iEnterPostCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124369900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on Continue Btn",
+            "match": {
+              "location": "onlineBookingStepsdef.iClickOnContinueBtn()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "SignUp, Sign In and Purchase Product",
+    "description": "",
+    "id": "signup,-sign-in-and-purchase-product",
+    "keyword": "Feature",
+    "uri": "onlineBooking.feature"
+  }
+]
